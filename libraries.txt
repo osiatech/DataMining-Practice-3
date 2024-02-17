@@ -1,0 +1,16 @@
+
+Run these commands in the Window PowerShell
+
+Install Scikit Learn
+Command: pip install -U scikit-learn
+Web Site: https://scikit-learn.org/stable/install.html
+
+Install Matplotlib
+Command: pip install matplotlib
+Web Site: https://matplotlib.org/stable/users/getting_started/
+
+Install PyArrow
+Command: pip install pyarrow
+Web Site: https://arrow.apache.org/docs/python/install.html
+
+Pandas is included in the python packages
