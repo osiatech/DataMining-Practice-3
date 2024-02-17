@@ -1,0 +1,12 @@
+Para obtener solo el número (la cantidad) de la salida del value_counts(), puedes acceder al valor directamente utilizando la indexación. Aquí te muestro cómo hacerlo:
+
+
+movies_2010 = netflixTitlesData[(netflixTitlesData['type'] == 'Movie') & (netflixTitlesData['release_year'] == 2010)]
+
+movies2010_Counted = movies_2010['release_year'].value_counts();
+
+movies2010_Counted = movies_2010['release_year'].value_counts().iloc[0]  # Accede al valor con iloc[0]
+
+print(movies2010_Counted);
+
+Al utilizar iloc[0], estás accediendo al primer elemento del resultado de value_counts(), que es la cantidad de películas lanzadas en el año 2010. Esto te permitirá almacenar solo ese número en la variable movies2010_Counted.
